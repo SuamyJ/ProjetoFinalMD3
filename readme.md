@@ -120,8 +120,9 @@ EN-US
 
 # Project suCARLOCA = suamy + CARLOCA
 
-OBS.: The project already contains CREATE suCARLOCA and USE suCARLOCA to facilitate usage.
-OBS.: The database is set to 'Not Alugado' as '0' and 'Alugado' as '1'.
+OBS.: The project already contains CREATE suCARLOCA and USE suCARLOCA to facilitate usage;
+
+OBS.: The database is set to 'Not Alugado' as '0' and 'Alugado' as '1';
 
 
 🌐 Overview
