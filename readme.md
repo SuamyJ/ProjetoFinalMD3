@@ -1,7 +1,8 @@
 Projeto suCARLOCA = suamy + CARLOCA
 
-OBS.: O projeto já vem com CREATE suCARLOCA e o USE suCARLOCA em prol de facilitar o uso.
-OBS.: O banco está para Não Alugado como '0' e Alugado como '1'.
+OBS.: O projeto já vem com CREATE suCARLOCA e o USE suCARLOCA em prol de facilitar o uso;
+
+OBS.: O banco está para Não Alugado como '0' e Alugado como '1';
 
 🌐 Visão Geral
 
@@ -25,43 +26,43 @@ o próprio DbGate converte para tinyint.
 
 Modelagem de Carro:
 
-  ✅ Um carro possui modelo, montadora, cor e versão.
+  ✅ Um carro possui modelo, montadora, cor e versão;
 
 Cores Disponíveis:
 
-  ✅ As cores de carro disponiveis são apenas branco, preto e prata.
+  ✅ As cores de carro disponiveis são apenas branco, preto e prata;
 
 Categorias de Veículos:
 
-  ✅ Existem várias categorias de veiculos (hatch, sedam compacto, sedam médio, SUV, etc...).
+  ✅ Existem várias categorias de veiculos (hatch, sedam compacto, sedam médio, SUV, etc...);
 
 Modalidade de Locação:
 
-  ✅ Um cliente pode alugar um carro somente na modalidade "diária".
+  ✅ Um cliente pode alugar um carro somente na modalidade "diária";
 
 Restrição de Locação por Cliente:
 
-  ✅ Um cliente não pode alugar mais de um carro por vez.
+  ✅ Um cliente não pode alugar mais de um carro por vez;
 
 Exclusividade de Locação:
   
-  ✅ Enquanto um carro estiver locado por um cliente não pode ser ofertado para outro.
+  ✅ Enquanto um carro estiver locado por um cliente não pode ser ofertado para outro;
 
 Histórico de Locações por Cliente:
 
-  ✅ O sistema deve manter o histórico dos clientes que locaram determinado carro.
+  ✅ O sistema deve manter o histórico dos clientes que locaram determinado carro;
 
 Registro de Quilometragem:
 
-  ✅ O sistema deve manter o histórico de quantos quilometros o cliente rodou com o carro bem como a quilometragem atual de cada um dos carros.
+  ✅ O sistema deve manter o histórico de quantos quilometros o cliente rodou com o carro bem como a quilometragem atual de cada um dos carros;
 
 Rastreamento de Localização:
 
-  ✅ Existem várias unidades da fraquia CARLOCA o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo.
+  ✅ Existem várias unidades da fraquia CARLOCA o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo;
 
 💡 Requisitos não funcionais:
 
-  ✅ Devem ser gerados inserts e selects que possibilitem validar cada um dos requisitos acima.
+  ✅ Devem ser gerados inserts e selects que possibilitem validar cada um dos requisitos acima;
 
 
 
