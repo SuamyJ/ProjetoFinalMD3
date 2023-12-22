@@ -23,30 +23,39 @@ o próprio DbGate converte para tinyint.
 📋 Requisitos Funcionais
 
 Modelagem de Carro:
+
 ✅ Um carro possui modelo, montadora, cor e versão.
 
 Cores Disponíveis:
+
 ✅ As cores de carro disponiveis são apenas branco, preto e prata.
 
 Categorias de Veículos:
+
 ✅ Existem várias categorias de veiculos (hatch, sedam compacto, sedam médio, SUV, etc...).
 
 Modalidade de Locação:
+
 ✅ Um cliente pode alugar um carro somente na modalidade "diária".
 
 Restrição de Locação por Cliente:
+
 ✅ Um cliente não pode alugar mais de um carro por vez.
 
 Exclusividade de Locação:
+
 ✅ Enquanto um carro estiver locado por um cliente não pode ser ofertado para outro.
 
 Histórico de Locações por Cliente:
+
 ✅ O sistema deve manter o histórico dos clientes que locaram determinado carro.
 
 Registro de Quilometragem:
+
 ✅ O sistema deve manter o histórico de quantos quilometros o cliente rodou com o carro bem como a quilometragem atual de cada um dos carros.
 
 Rastreamento de Localização:
+
 ✅ Existem várias unidades da fraquia CARLOCA o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo.
 
 💡 Requisitos não funcionais:
@@ -127,30 +136,39 @@ In the CREATE CARRO table, there is an enum with colors White, Black, and Gray. 
 📋 Functional Requirements
 
 Car Model:
+
 ✅ A car has a model, manufacturer, color, and version.
 
 Available Colors:
+
 ✅ The available car colors are only white, black, and silver.
 
 Vehicle Categories:
+
 ✅ There are various vehicle categories (hatch, compact sedan, midsize sedan, SUV, etc.).
 
 Rental Modality:
+
 ✅ A client can rent a car only in the "daily" modality.
 
 Client Rental Restriction:
+
 ✅ A client cannot rent more than one car at a time.
 
 Rental Exclusivity:
+
 ✅ While a car is rented by a client, it cannot be offered to another.
 
 Client Rental History:
+
 ✅ The system must keep a record of clients who rented a particular car.
 
 Mileage Record:
+
 ✅ The system must maintain the history of how many kilometers the client drove with the car, as well as the current mileage of each car.
 
 Location Tracking:
+
 ✅ There are several CARLOCA franchise units; the system must know where each car was rented and where each vehicle was returned.
 
 💡 Non-Functional Requirements:
