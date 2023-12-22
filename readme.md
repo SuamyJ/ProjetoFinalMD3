@@ -1,4 +1,4 @@
-Projeto suCARLOCA = suamy + CARLOCA
+# Projeto suCARLOCA = suamy + CARLOCA
 
 OBS.: O projeto já vem com CREATE suCARLOCA e o USE suCARLOCA em prol de facilitar o uso;
 
